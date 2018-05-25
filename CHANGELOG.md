@@ -2,6 +2,14 @@
   * Added `queueSize` option to `initPool` to set the request overfow queue size 
   * Added option to supply `cdnURL` to build script (#133)
   * Added `;` between included scripts. Fixes map collections (#128)
+  * Added handler for data export (only supports CSV right now)
+    ```
+      POST /dataexp: {
+        filename: 'name of file',
+        type: 'csv',
+        csv: <csv data>
+      }
+    ```
 
 # 2.0.14
 
