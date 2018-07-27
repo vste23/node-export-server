@@ -1,4 +1,5 @@
 # Master
+  * Fixed issue with silent install always installing styled mode and maps
   * Added `queueSize` option to `initPool` to set the request overfow queue size 
   * Added option to supply `cdnURL` to build script (#133)
   * Added `;` between included scripts. Fixes map collections (#128)
