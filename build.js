@@ -178,14 +178,14 @@ let schema = {
 
 // Augment the schema with the query CDN scripts
 
-Object.keys(cdnScriptsQuery).forEach((name) => {
-  schema.properties[name] = {
-    description: `Enable ${name} support? y/n`,
-    required: false,
-    default: 'no',
-    conform: boolConform
-  };
-});
+// Object.keys(cdnScriptsQuery).forEach((name) => {
+//   schema.properties[name] = {
+//     description: `Enable ${name} support? y/n`,
+//     required: false,
+//     default: 'no',
+//     conform: boolConform
+//   };
+// });
 
 ////////////////////////////////////////////////////////////////////////////////
 
